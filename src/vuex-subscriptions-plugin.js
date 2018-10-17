@@ -5,7 +5,7 @@ export default {
 				if (this.$options.subscriptions) {
 					this.__subscriptionPluginUnsubscribe = this.$store.subscribe((commitObject, state) => {
 						let subscription = this.$options.subscriptions[commitObject.type];
-						typeof subscription === 'function' && subscription(commitObject, state).call(this, commitObject, state);
+						typeof subscription === 'function' && subscription.call(this, commitObject, state);
 					});
 				}
 			},
