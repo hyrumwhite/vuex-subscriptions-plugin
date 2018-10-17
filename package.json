@@ -1,7 +1,7 @@
 {
   "name": "vuex-subscriptions-plugin",
-  "version": "1.0.1",
-  "description": "A Vue.js plugin that allows you to use and create webcomponents as easily as Vue Components",
+  "version": "1.0",
+  "description": "A Vue.js plugin that adds the 'subscriptions' option to a Vue Component to better organize Vuex subscriptions",
   "main": "dist/vuex-subscriptions-plugin.js",
   "module": "src/vuex-subscriptions-plugin.js",
   "scripts": {
