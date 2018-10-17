@@ -1,7 +1,5 @@
 # Vuex Subscriptions Plugin
-This plugin allows you to add a `...subscriptions:{[mutationType]:()=>{}},...` option to a Vue Component Definition that cleans up vuex subscriptions and automatically unsubscribes when the component is destroyed.
-
-In general, it's best to use reactivity over subscriptions, but sometimes a call to `$store.subscribe` is unavoidable.
+In general, it's best to use reactivity over subscriptions, but sometimes a call to `$store.subscribe` is unavoidable. This plugin allows you to add a `...subscriptions:{[mutationType]:()=>{}},...` option to a Vue Component Definition that cleans up vuex subscriptions and automatically unsubscribes when the component is destroyed.
 
 ## Installation
 `npm i vuex-subscriptions-plugin -S`
