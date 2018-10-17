@@ -1,6 +1,6 @@
 {
   "name": "vuex-subscriptions-plugin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A Vue.js plugin that adds the 'subscriptions' option to a Vue Component to better organize Vuex subscriptions",
   "main": "dist/vuex-subscriptions-plugin.js",
   "module": "src/vuex-subscriptions-plugin.js",
