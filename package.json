@@ -1,0 +1,36 @@
+{
+  "name": "vuex-subscriptions-plugin",
+  "version": "1.0.1",
+  "description": "A Vue.js plugin that allows you to use and create webcomponents as easily as Vue Components",
+  "main": "dist/vuex-subscriptions-plugin.js",
+  "module": "src/vuex-subscriptions-plugin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyrumwhite/vuex-subscriptions-plugin.git"
+  },
+  "keywords": [
+    "vuex",
+    "vuejs",
+    "vue.js",
+    "plugin",
+    "subscriptions"
+  ],
+  "author": "Seth White",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hyrumwhite/vuex-subscriptions-plugin/issues"
+  },
+  "homepage": "https://github.com/hyrumwhite/vuex-subscriptions-plugin#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
