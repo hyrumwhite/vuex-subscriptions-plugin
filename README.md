@@ -34,4 +34,4 @@ new Vue({
 
 ```
 
-Subscriptions must be an object with keys that match corresponding mutation types. The keys must reference a function that will be executed in the context of the Vue Component. The functions will be passed the "mutation" and the "payload" associated with the commit that triggered the subscription. See: https://vuex.vuejs.org/api/#subscribe
+Subscriptions must be an object with keys that match corresponding mutation types. The keys must reference a function. This function will be executed in the context of the Vue Component, so it can access data, methods, props, etc. The functions will be passed the "mutation" and the "payload" associated with the commit that triggered the subscription. See: https://vuex.vuejs.org/api/#subscribe
